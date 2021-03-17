@@ -173,9 +173,6 @@ header ul li a {
     border-radius: 50%;
     background-color: #453DCE;
     display: block;
- 
-
-    
     transition: opacity 200ms ease-in-out ;
 }
 
@@ -302,7 +299,29 @@ header{
     }
   
    
+    /*work*/
+
+    .work-container{
+        padding-top: 3rem
+    }
+
+    #career-expert-phone{
+        height: 400px;
+        width: auto;
+    }
+    #career-expert-picture::before{
+        content:'' ;
+        position: absolute;
+        top: 154px;
+        margin-left: -50px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: #453DCE;
+        display: block;
         
+    }
+    
 
 
 
