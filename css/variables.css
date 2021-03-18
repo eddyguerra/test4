@@ -34,6 +34,18 @@ h4{
     }
 }
 
+
+
+#career-expert a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+
+
+
 /*buttons*/
 
 @media only screen and (max-width: 1000px) {
