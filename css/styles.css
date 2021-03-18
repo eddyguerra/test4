@@ -181,6 +181,12 @@ header ul li a {
     transform: scale(1.03);
     transition: .2s ;
 }
+#career-expert a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+}
 
 
 
