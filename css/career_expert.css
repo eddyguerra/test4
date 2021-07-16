@@ -95,20 +95,84 @@
 }
 
 
+.view_prototype_ce{
+    text-align: center;
+    margin-top: 1rem;
+    width: 10rem;
+    padding: .4rem .4rem;
+    border-color: #453DCE;
+    border-radius: 5px;
+    background-color: white;
+    color:#453DCE;
+    font-weight:bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 2px #453DCE;
+    transition: .3s;
+}
 
 
+.view_prototype_ce:hover{
+    border: solid 2px #453DCE;
+    background-color: #453DCE;
+    color:white;
+    cursor: pointer;
+}
 
+/*index*/
+.index_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 0px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      
+      "Discovery Concepting Design-Iteration";
+    margin-top: 5vh;
+      
 
+     
+  }
+  
+  .Discovery { grid-area: Discovery;
+     border: solid 1px #453DCE; 
+     border-radius: 3px;
+     padding-left: 7px;
+    }
+  
+  .Concepting { grid-area: Concepting;
+     border: solid 1px #453DCE;
+     border-radius: 3px;
+     padding-left: 7px;
+    }
+  
+  .Design-Iteration { grid-area: Design-Iteration;
+    border: solid 1px #453DCE;
+    border-radius: 3px;
+    padding-left: 7px;
+ }
 
+ 
+ #index_container_header{
+     color:#FF8A00 ;
+     font-weight: bold;
+     margin-bottom: 7px;
+ }
 
+#index_container_list{
+    color:#453DCE ;
+    margin-bottom: 15px;
 
+}
 
+#index_container_list li:not(:last-child) {
+    margin-bottom: 15px;
+}
 
-
-
-
-
-
+#index_container_list li:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -152,9 +216,20 @@
 
 .intro_grid_container_career_expert {
     grid-template-columns: 0.8fr 0.8fr 1.4fr; 
+    grid-template-areas:
+      "Career-Expert Career-Expert Tools"
+      "My-roles My-roles Tools"
+      "Context Context Timeline";
+}
+#ce_tools_list{
+    list-style: none;
+    
 }
 
+.index_container {
+    gap:0px 15px;
 
+}
 
 
 

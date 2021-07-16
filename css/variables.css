@@ -15,6 +15,9 @@ h4{
     font-size: 1.6rem;
 }
 
+p{
+    font-size: 1.15rem;
+}
 
 
 @media only screen and (max-width: 1000px) {
@@ -30,6 +33,10 @@ h4{
     }
 
     h4{
+        font-size: .9rem;
+    }
+
+    p{
         font-size: .9rem;
     }
 }
@@ -49,8 +56,21 @@ h4{
 
 /*buttons*/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     
+    h1{
+        font-size: 1.2rem;
+    }
 
+    h2{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: .9rem;
+    }
 
+    h4{
+        font-size: .8rem;
+    }
 }
+
