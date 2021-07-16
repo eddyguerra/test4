@@ -1,3 +1,4 @@
+/*Hero*/
 .career_expert_hero_container{
     margin-top: 50px;
     padding-top: 40px;
@@ -6,7 +7,7 @@
     position: relative;
 }
 
-#phone_hero{
+.phone_hero{
     margin-top: 3rem;
     height:400px;
     z-index: 3;
@@ -27,3 +28,113 @@
     z-index: 2;
     
 }
+
+#phone_2_hero{
+    height: 375px;
+    
+}
+#phone_3_hero{
+    position: relative;
+    height: 375px;
+}
+
+
+
+/*Introduction Grid*/
+.centre{
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.intro_grid_container_career_expert {
+    margin-top: 1rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Career-Expert Career-Expert Tools"
+      "My-roles My-roles Tools"
+      "Context Timeline Tools";
+    width: 125%;
+    height: 89.8%;
+    grid-row-gap: 25px;
+    
+  }
+  
+  .My-roles { grid-area: My-roles; }
+  
+  .Career-Expert { grid-area: Career-Expert; }
+  
+  .Context { grid-area: Context; }
+  
+  .Timeline { grid-area: Timeline; }
+  
+  .Tools { grid-area: Tools; }
+  
+  #intro_grid_titles{
+      color: #3830CB;
+      font-weight: bold;
+      
+  }
+
+
+  #ce_tools_list{
+      list-style: square;
+      
+  }
+  #ce_tools_list li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:1000px){
+
+    #phone_2_hero{
+        display: none;
+        
+    }
+    #phone_3_hero{
+        display: none;
+    }
+
+    
+  }

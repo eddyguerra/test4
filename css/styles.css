@@ -24,7 +24,7 @@ header{
     background-color: #453DCE;
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 200;
     
     
     
@@ -75,7 +75,15 @@ header ul li a {
 }
 
 
-
+#logo{
+    position: relative;
+    color: white;
+    font-size: 1.6rem;
+   opacity: .85;
+   cursor: pointer;
+   text-decoration: none;
+    
+}
 .logo{
     position: relative;
     color: white;
@@ -162,7 +170,7 @@ header ul li a {
 }
 
 .career_expert_cover {
-    width: 35vw;
+    width: 40rem;
    /* -webkit-transition: transform .7s;*/
 }
 
@@ -247,10 +255,13 @@ footer ul li a{
 
 
 
+@media screen and (max-width:900px){
+    .career_expert_cover{
+        height: auto;
+        width: 75vw;
+    }
 
-
-
-
+}
 
 @media screen and (max-width:700px){
 
@@ -361,8 +372,22 @@ header{
    }
    
     /*work*/
+.work-container{
+    position: relative;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        
+        margin: 0;
+        column-width: 75%;
+        padding-left: 1.0rem;
+        height: px;
+}
 
-    
-
+.career_expert_cover{
+    height: auto;
+    width: 75vw;
+}
     
 }
