@@ -66,6 +66,7 @@
     height: 89.8%;
     grid-row-gap: 25px;
     
+    
   }
   
   .My-roles { grid-area: My-roles; }
@@ -138,6 +139,13 @@
     #phone_3_hero{
         display: none;
     }
-
+    .centre{
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center;
+        padding-bottom: 5rem;
+        column-width: 60%;
+        
+    }
     
   }
