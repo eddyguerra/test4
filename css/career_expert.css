@@ -1,4 +1,6 @@
-
+html, body{
+    scroll-behavior: smooth;
+}
 /*Hero*/
 .career_expert_hero_container{
     margin-top: 50px;
@@ -46,7 +48,7 @@
     display: grid;
     grid-template-columns: 60%;
     justify-content: center;
-    padding-bottom: 5rem;
+    
 }
 .intro_grid_container_career_expert {
 
@@ -177,11 +179,56 @@
 
 
 
+/*Discovery Session*/
+#uad{
+    background-color:#453DCE ;
+    position: relative;
+    width:100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+
+}
+
+#white h2,
+#white h3,
+#white p{
+    color: white;
+}
 
 
+#ur{
+    background-color: #F6F6F6;
+    padding-top: 40px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+#testimony_ce ul{
+    margin: 20px auto;
+}
 
 
+#testimony_ce li{
+    margin: 0 ;
+    display: inline-block;
+    margin-top: 30px;
+    
+     
+}
 
+#testimony_ce li:not(:first-child) {
+    margin-right: 15px;
+}
+
+#testimony_img{
+    width: 17vw;
+    
+}
+
+#testimony_ce{
+    text-align: center;
+}
 
 
 
@@ -207,7 +254,6 @@
         display: grid;
         grid-template-columns: 75%;
         justify-content: centre;
-        padding-bottom: 5rem;
         column-width: 60%;
         
     }
@@ -231,8 +277,11 @@
 
 }
 
-
+#testimony_img{
+    width: 20vw;
 
 
     
   }
+
+}

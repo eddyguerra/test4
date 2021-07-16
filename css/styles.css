@@ -171,7 +171,8 @@ header ul li a {
 
 .career_expert_cover {
     width: 40rem;
-   /* -webkit-transition: transform .7s;*/
+    transition: .3s;
+   
 }
 
 #career_expert_cover :hover{
@@ -183,42 +184,8 @@ header ul li a {
 
     
 
-#career-expert-phone{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    transition: .2s ;
-}
 
-#work-tag1{
-    text-align: center;
-}
 
-#career-expert-picture::before{
-    content:'' ;
-    position: absolute;
-    top: 188px;
-    margin-left: -77px;
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    background-color: #453DCE;
-    display: block;
-    transition: width opacity 200ms ease-in-out ;
-}
-
-#career-expert-picture :hover{
-    transform: scale(1.03);
-    transition: .2s ;
-}
-#career-expert a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-   
-}
 
 
 
