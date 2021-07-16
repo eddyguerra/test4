@@ -142,10 +142,22 @@
     .centre{
         display: grid;
         grid-template-columns: 75%;
-        justify-content: center;
+        justify-content: centre;
         padding-bottom: 5rem;
         column-width: 60%;
         
     }
+
+
+
+.intro_grid_container_career_expert {
+    grid-template-columns: 0.8fr 0.8fr 1.4fr; 
+}
+
+
+
+
+
+
     
   }
