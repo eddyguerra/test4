@@ -307,7 +307,7 @@ html, body{
 
 
 
-
+/*Index*/
 .index_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -318,9 +318,16 @@ html, body{
       
       "Discovery Concepting Design-Iteration";
     margin-top: 5vh;
-    justify-content: center;
     }
-
+.index_container h2{
+font-size: 1rem;
+}
+.index_container h3{
+    font-size: .6rem;
+}
+.index_container div:not(:last-child) {
+padding-right: 5px;
+}
 
 /*Discovery*/
 #testimony_img{
