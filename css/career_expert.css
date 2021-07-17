@@ -179,7 +179,7 @@ html, body{
 
 
 
-/*Discovery Session*/
+/*Discovery Section*/
 #uad{
     background-color:#453DCE ;
     position: relative;
@@ -231,8 +231,33 @@ html, body{
 }
 
 
+#leading_competitors_img{
+    width: 25vw;
+    align-items: center;
+}
 
+#leading_competitors_container{
+    display:flexbox;
+    text-align: center;
+}
 
+/*cancepting*/
+#ca ul{
+    list-style: disc;
+}
+
+#ca{
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+}
+
+#ce_user_persona{
+    width: 60vw;
+}
+
+#ce_journey_map{
+    width: 60vw;
+}
 
 
 
@@ -243,6 +268,7 @@ html, body{
 
   @media screen and (max-width:1000px){
 
+/*Hero*/
     #phone_2_hero{
         display: none;
         
@@ -259,7 +285,7 @@ html, body{
     }
 
 
-
+/*Intro*/
 .intro_grid_container_career_expert {
     grid-template-columns: 0.8fr 0.8fr 1.4fr; 
     grid-template-areas:
@@ -277,11 +303,22 @@ html, body{
 
 }
 
+/*Discovery*/
 #testimony_img{
     width: 20vw;
+}
 
+#leading_competitors_img{
+    width: 60vw;
+    align-items: center;
+}
 
-    
-  }
+#ce_user_persona{
+    width: 75vw;
+}
+#ce_journey_map{
+    width: 75vw;
+}
+
 
 }
