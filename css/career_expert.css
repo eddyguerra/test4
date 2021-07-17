@@ -259,6 +259,40 @@ html, body{
     width: 60vw;
 }
 
+#ce_cardsorting_img{
+    width:40vw;
+}
+
+#ce_sitemap_img{
+    width: 40vw;
+}
+
+
+
+/*Design Iteration*/
+#ce_low_wireframe{
+    height: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -320,7 +354,7 @@ html, body{
     margin-top: 5vh;
     }
 .index_container h2{
-font-size: 1rem;
+font-size: .9rem;
 }
 .index_container h3{
     font-size: .6rem;
@@ -345,6 +379,16 @@ padding-right: 5px;
 #ce_journey_map{
     width: 75vw;
 }
+
+#ce_cardsorting_img{
+    width:60vw;
+}
+
+#ce_sitemap_img{
+    width: 60vw;
+}
+
+
 
 
 }
