@@ -6,7 +6,7 @@ html, body{
     margin-top: 50px;
     padding-top: 40px;
     text-align: center;
-    z-index: 3;
+    z-index: 150;
     position: relative;
 }
 
@@ -328,6 +328,107 @@ html, body{
 
 
 
+#anchor_position{
+    position: absolute;
+    z-index: 10000;
+}
+
+
+.anchorTab{
+    background-color: rgb(245, 245, 245);
+    width: 12vw;
+    position: fixed;
+    top: 20vh;
+    padding: 10px;
+    z-index: 1;
+    display:inline;
+    transform: translatex(-100%);
+    transition: .2s;
+    /*border: solid 1px #b2b2b6;*/
+    border-radius: 5px;
+}
+
+#anchorText{
+    color: black;
+    text-decoration: none;
+    list-style:square;
+    
+}
+
+
+
+.anchorTab ul li a { 
+    display: flex;
+    padding: 15px 0px ;
+    font-size: 14px;
+    list-style: none;
+}
+
+.anchorTab ul li { 
+    list-style: square;
+    margin-left: 20px;
+}
+
+#back{
+    text-align: center;
+  
+}
+
+.fixed{
+    position: fixed;
+    top: 20vh;
+    display:inline;
+    transition: .2s;
+    transform: translatex(0%);
+    
+}
+
+
+
+.active{
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .fixed{
+        display: none;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   @media screen and (max-width:1000px){
 
@@ -489,3 +590,23 @@ padding-right: 5px;
 
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anchorTab ul li :hover{
+    
+    opacity: .5;
+      
+       
+   }
+   

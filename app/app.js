@@ -32,3 +32,21 @@ window.onscroll = function() {
     }
     prevScrollpos = currentScrollPos;
 }
+
+
+
+
+
+window.addEventListener('scroll',function(event){
+    var scroll = this.scrollY;
+    console.log(scroll);
+    if(scroll>400){
+        document.getElementById("anchorTab").classList.add('fixed');
+    }
+    else{
+        document.getElementById("anchorTab").classList.remove('fixed');
+    }
+
+
+});
+
