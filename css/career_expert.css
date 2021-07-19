@@ -387,7 +387,7 @@ html, body{
 
 .active{
     font-weight: bold;
-    
+
 }
 
 
@@ -403,11 +403,16 @@ html, body{
 
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1275px){
     .fixed{
         display: none;
         
     }
+
+    .anchorTab{
+        display: none;
+        visibility: hidden;
+
 
 }
 
