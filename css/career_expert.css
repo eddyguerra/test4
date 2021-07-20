@@ -241,6 +241,14 @@ html, body{
     text-align: center;
 }
 
+#critique{
+    width: 50vw;
+    text-align: center;
+}
+
+
+
+
 /*cancepting*/
 #ca ul{
     list-style: disc;
@@ -264,7 +272,7 @@ html, body{
 }
 
 #ce_sitemap_img{
-    width: 40vw;
+    width: 55vw;
 }
 
 
@@ -310,29 +318,6 @@ html, body{
 #preference_test_grid img{
     height: 450px;
 }
-
-
-#preference_test_grid_2{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 30px;
-}
-
-#preference_test_grid_2 img{
-    height: 450px;
-}
-
-#preference_test_grid_3{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 30px;
-}
-
-#preference_test_grid_3 img{
-    height: 450px;
-}
-
-
 
 #sg img{
     width: 40vw;
@@ -543,7 +528,7 @@ padding-right: 5px;
 }
 
 #ce_sitemap_img{
-    width: 60vw;
+    width: 70vw;
 }
 
 
@@ -571,21 +556,16 @@ padding-right: 5px;
     grid-template-columns: 100%;
 }
 
-#preference_test_grid_2{
-    display: grid;
-    grid-template-columns: 100%;
-}
-
-#preference_test_grid_3{
-    display: grid;
-    grid-template-columns: 100%;
-}
-
-
-
 
 #sg img{
     width: 60vw;
+
+    
+}
+
+#critique{
+    width: 70vw;
+    
 }
 
 
@@ -626,17 +606,6 @@ padding-right: 5px;
     height: auto;
     width: 75vw;
 }
-
-#preference_test_grid_2 img{
-    height: auto;
-    width: 75vw;
-}
-
-#preference_test_grid_3 img{
-    height: auto;
-    width: 75vw;
-}
-
 
 
 
