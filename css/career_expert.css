@@ -311,6 +311,29 @@ html, body{
     height: 450px;
 }
 
+
+#preference_test_grid_2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+}
+
+#preference_test_grid_2 img{
+    height: 450px;
+}
+
+#preference_test_grid_3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+}
+
+#preference_test_grid_3 img{
+    height: 450px;
+}
+
+
+
 #sg img{
     width: 40vw;
 }
@@ -548,6 +571,19 @@ padding-right: 5px;
     grid-template-columns: 100%;
 }
 
+#preference_test_grid_2{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#preference_test_grid_3{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+
+
+
 #sg img{
     width: 60vw;
 }
@@ -591,6 +627,19 @@ padding-right: 5px;
     width: 75vw;
 }
 
+#preference_test_grid_2 img{
+    height: auto;
+    width: 75vw;
+}
+
+#preference_test_grid_3 img{
+    height: auto;
+    width: 75vw;
+}
+
+
+
+
 
 
 }
@@ -615,3 +664,4 @@ padding-right: 5px;
        
    }
    
+}
