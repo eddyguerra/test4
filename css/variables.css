@@ -30,6 +30,33 @@ p{
   text-justify: inter-word;
 }
 
+.medium_button{
+    text-align: center;
+    margin-top: 1rem;
+    width: 10rem;
+    padding: .4rem .4rem;
+    border-color: #453DCE;
+    border-radius: 5px;
+    background-color: white;
+    color:#453DCE;
+    font-weight:bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 2px #453DCE;
+    transition: .3s;
+    display: inline-block;
+}
+
+
+.medium_button:hover{
+    border: solid 2px #453DCE;
+    background-color: #453DCE;
+    color:white;
+    cursor: pointer;
+}
+
+
+
 
 @media only screen and (max-width: 1000px) {
     h1{
