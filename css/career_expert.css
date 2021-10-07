@@ -54,7 +54,6 @@ h2, h3{
     display: grid;
     grid-template-columns: 60%;
     justify-content: center;
-    
 }
 .intro_grid_container_career_expert {
 
@@ -87,7 +86,7 @@ h2, h3{
   
   .Tools { grid-area: Tools; }
   
-  #intro_grid_titles{
+  .intro_grid_titles{
       color: #3830CB;
       font-weight: bold;
       
@@ -162,23 +161,34 @@ h2, h3{
  }
 
  
- #index_container_header{
+ .index_container_header{
      color:#FF8A00 ;
      font-weight: bold;
      margin-bottom: 7px;
  }
+ #index_container_header_discovery{
+    color:#FF8A00 ;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
 
-#index_container_list{
+#index_container_header_concepting{
+    color:#FF8A00 ;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.index_container_list{
     color:#453DCE ;
     margin-bottom: 15px;
 
 }
 
-#index_container_list li:not(:last-child) {
+.index_container_list li:not(:last-child) {
     margin-bottom: 15px;
 }
 
-#index_container_list li:hover{
+.index_container_list li:hover{
     text-decoration: underline;
 }
 
@@ -224,10 +234,10 @@ h2, h3{
 }
 
 #testimony_ce li:not(:first-child) {
-    margin-right: 15px;
+    margin-right: 0;
 }
 
-#testimony_img{
+.testimony_img{
     width: 17vw;
     
 }
@@ -284,11 +294,11 @@ h2, h3{
 
 
 /*Design Iteration*/
-#ce_low_wireframe{
+.ce_low_wireframe{
     height: 20rem;
 }
 
-#ce_mid-high_wireframe{
+.ce_mid-high_wireframe{
     height: 19rem;
     width: auto;
 }
@@ -431,7 +441,9 @@ h2, h3{
 }
 
 
-
+#last_comparison{
+    width: 70%;
+}
 
 
 
@@ -513,7 +525,7 @@ padding-right: 5px;
 }
 
 /*Discovery*/
-#testimony_img{
+.testimony_img{
     width: 20vw;
 }
 
@@ -539,13 +551,13 @@ padding-right: 5px;
 
 
 /*Design Iteration*/
-#ce_low_wireframe{
+.ce_low_wireframe{
     height: 35vw;
     width: auto;
     max-width: 75vw;
 }
 
-#ce_mid-high_wireframe{
+.ce_mid-high_wireframe{
     height: 30vw;
     width: auto;
 }
