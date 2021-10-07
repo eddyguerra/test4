@@ -325,13 +325,13 @@ h2, h3{
     
 }
 
-#preference_test_grid{
+.preference_test_grid{
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 30px;
 }
 
-#preference_test_grid img{
+.preference_test_grid img{
     height: 450px;
 }
 
@@ -569,7 +569,7 @@ padding-right: 5px;
 
 }
 
-#preference_test_grid{
+.preference_test_grid{
     display: grid;
     grid-template-columns: 100%;
 }
@@ -620,7 +620,7 @@ padding-right: 5px;
     height: 40vw;
 }
 
-#preference_test_grid img{
+.preference_test_grid img{
     height: auto;
     width: 75vw;
 }
