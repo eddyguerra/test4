@@ -232,7 +232,9 @@ footer ul li a:hover{
     transition: .2s linear;
 }
 
-
+footer a{
+    display:block;
+}
 
 #number{
     padding-top: 10px;
