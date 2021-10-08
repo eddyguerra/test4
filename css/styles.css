@@ -120,7 +120,7 @@ header ul li a {
     justify-content: center;
     padding-top: 15vh;
     margin: 0;
-    column-width: 75%;
+    
 }
 
 .hero-container-about{
@@ -130,7 +130,7 @@ header ul li a {
     justify-content: center;
     padding-top: 15vh;
     margin: 0;
-    column-width: 75%;
+    
 }
 
 #hero-name{
@@ -178,7 +178,6 @@ header ul li a {
     justify-content: center;
     padding-top: 5vh;
     margin: 0;
-    column-width: 75%;
     
 }
 
@@ -365,7 +364,6 @@ header{
         justify-content: center;
         padding-top: 10vh;
         margin: 0;
-        column-width: 75%;
         padding-left: 1.0rem;
        
     }
@@ -379,7 +377,6 @@ header{
         justify-content: center;
         padding-top: 10vh;
         margin: 0;
-        column-width: 75%;
         padding-left: 1.0rem;
        
     }
@@ -403,11 +400,9 @@ header{
         display: grid;
         grid-template-columns: 100%;
         justify-content: center;
-        
         margin: 0;
-        column-width: 75%;
         padding-left: 1.0rem;
-        height: px;
+       
 }
 
 .career_expert_cover{
