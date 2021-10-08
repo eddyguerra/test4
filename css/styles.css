@@ -123,6 +123,16 @@ header ul li a {
     column-width: 75%;
 }
 
+.hero-container-about{
+    position: relative;
+    z-index: 2;
+    grid-template-columns: 60%;
+    justify-content: center;
+    padding-top: 15vh;
+    margin: 0;
+    column-width: 75%;
+}
+
 #hero-name{
     opacity: .8;
 }
@@ -351,6 +361,19 @@ header{
         position: relative;
         z-index: 2;
         align-items: center;
+        grid-template-columns: 100%;
+        justify-content: center;
+        padding-top: 10vh;
+        margin: 0;
+        column-width: 75%;
+        padding-left: 1.0rem;
+       
+    }
+
+    .hero-container-about{
+        position: relative;
+        z-index: 2;
+        align-items: center;
         display: grid;
         grid-template-columns: 100%;
         justify-content: center;
@@ -360,6 +383,7 @@ header{
         padding-left: 1.0rem;
        
     }
+
 
     #skills-buttons{
         font-size: .9rem;
