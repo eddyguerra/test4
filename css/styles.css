@@ -1,6 +1,6 @@
-@import '/css/reset.css';
-@import '/css/variables.css';
-@import '/css/career_expert.css';
+@import 'css/reset.css';
+@import 'css/variables.css';
+@import 'css/career_expert.css';
 
 #container{
     min-height: 100vh;
