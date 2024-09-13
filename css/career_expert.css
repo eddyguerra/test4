@@ -253,7 +253,7 @@ h2, h3{
 }
 
 #leading_competitors_container{
-    display:flexbox;
+    display:flex;
     text-align: center;
 }
 
@@ -474,8 +474,8 @@ h2, h3{
     .centre{
         display: grid;
         grid-template-columns: 75%;
-        justify-content: centre;
-        column-width: 60%;
+        justify-content: center;
+
         
     }
 
